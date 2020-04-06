@@ -63,8 +63,8 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  '(header-line ((t (:background "#333" :foreground "#000"))))
  '(menu ((t (:background "#111" :foreground "#444"))))
  '(minibuffer-prompt ((t (:foreground "white"))))
- '(mode-line (:background "black" :foreground "gray70" :underline nil :overline "gray70"))
- '(modeline ((t (:background "gray70" :foreground "gray70" :overline t))))
+ '(mode-line ((t (:background "black" :foreground "gray70" :underline nil :overline "white"))))
+; '(modeline ((t (:background "gray70" :foreground "gray70" :overline "white"))))
  '(mode-line-inactive ((t (:background "#000000" :foreground "light gray"))))
  '(region ((t (:background "light gray" :foreground "black"))))
  '(secondary-selection ((t (:background "Aquamarine" :foreground "SlateBlue"))))
@@ -74,7 +74,7 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  '(widget-field-face ((t (:bold t :foreground "#999"))))
  '(vertical-line ((t (:background "black" :foreground "#111"))))
 
- ;; Search
+ ;;; Search
  '(isearch ((t (:foreground "black" :background "red"))))
  '(isearch-lazy-highlight-face ((t (:foreground "red"))))
 
