@@ -1,4 +1,5 @@
-;;; c:/Users/i040050/.doom.d/less-theme.el -*- lexical-binding: t; -*-
+;;; c:/Users/i040050/.
+;;; doom.d/less-theme.el -*- lexical-binding: t; -*-
 
 
 ;; less-theme.el --- A minimalistic custom theme for Emacs
@@ -61,7 +62,8 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  '(header-line ((t (:background "#333" :foreground "#000"))))
  '(menu ((t (:background "#111" :foreground "#444"))))
  '(minibuffer-prompt ((t (:foreground "white"))))
- '(modeline ((t (:background "#000000" :foreground "gray70"))))
+ '(mode-line (:background "black" :foreground "gray70" :underline nil :overline t))
+ '(modeline ((t (:background "gray70" :foreground "gray70" :overline t))))
  '(mode-line-inactive ((t (:background "#000000" :foreground "light gray"))))
  '(region ((t (:background "light gray" :foreground "black"))))
  '(secondary-selection ((t (:background "Aquamarine" :foreground "SlateBlue"))))
