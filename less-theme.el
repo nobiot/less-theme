@@ -1,6 +1,4 @@
-;;; c:/Users/i040050/.
-;;; doom.d/less-theme.el -*- lexical-binding: t; -*-
-
+;;; doom.d/less-theme.el --- minimalistic theme ---  -*- lexical-binding: t; -*-
 
 ;; less-theme.el --- A minimalistic custom theme for Emacs
 ;; Revision 3
@@ -27,7 +25,10 @@
 ;; LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 ;; OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 ;; THE SOFTWARE.
-
+;;
+;;; Commentary:
+;;; 
+;;; Code:
 (deftheme less
   "A minimalistic and mostly monochromatic color scheme inspired
 by `color-theme-late-night' and the Less is More theme for vim.")
@@ -71,6 +72,7 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  '(tooltip ((t (:background "#333" :foreground "#777"))))
  '(widget-button-face ((t (:bold t :foreground "#888"))))
  '(widget-field-face ((t (:bold t :foreground "#999"))))
+ '(vertical-line ((t (:background "black" :foreground "#111"))))
 
  ;; Search
  '(isearch ((t (:foreground "black" :background "red"))))
