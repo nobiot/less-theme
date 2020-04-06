@@ -65,7 +65,7 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  '(minibuffer-prompt ((t (:foreground "white"))))
  '(mode-line ((t (:background "black" :foreground "gray70" :underline nil :overline "white"))))
 ; '(modeline ((t (:background "gray70" :foreground "gray70" :overline "white"))))
- '(mode-line-inactive ((t (:background "#000000" :foreground "light gray"))))
+ '(mode-line-inactive ((t (:background "#000000" :foreground "#333"))))
  '(region ((t (:background "light gray" :foreground "black"))))
  '(secondary-selection ((t (:background "Aquamarine" :foreground "SlateBlue"))))
  '(tool-bar ((t (:background "#111" :foreground "#777"))))
@@ -226,6 +226,10 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  '(bg:erc-color-face13 ((t (nil))))
  '(bg:erc-color-face14 ((t (nil))))
  '(bg:erc-color-face15 ((t (nil))))
+
+ ;; Treemacs
+ '(treemacs-root-face ((t (:height 1.0 :underline t))))
+
  )
 
 (provide-theme 'less)
