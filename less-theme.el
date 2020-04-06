@@ -59,11 +59,11 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  '(font-lock-warning-face ((t (:bold t :foreground "red"))))
 
  ;; Emacs Interface
- '(fringe ((t (:background "#111" :foreground "#444"))))
+ '(fringe ((t (:background "black" :foreground "#111")))) ; making it more suble
  '(header-line ((t (:background "#333" :foreground "#000"))))
  '(menu ((t (:background "#111" :foreground "#444"))))
  '(minibuffer-prompt ((t (:foreground "white"))))
- '(mode-line (:background "black" :foreground "gray70" :underline nil :overline t))
+ '(mode-line (:background "black" :foreground "gray70" :underline nil :overline "gray70"))
  '(modeline ((t (:background "gray70" :foreground "gray70" :overline t))))
  '(mode-line-inactive ((t (:background "#000000" :foreground "light gray"))))
  '(region ((t (:background "light gray" :foreground "black"))))
