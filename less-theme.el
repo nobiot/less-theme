@@ -72,15 +72,19 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  '(tooltip ((t (:background "#333" :foreground "#777"))))
  '(widget-button-face ((t (:bold t :foreground "#888"))))
  '(widget-field-face ((t (:bold t :foreground "#999"))))
- '(vertical-line ((t (:background "black" :foreground "#111"))))
+ ;'(vertical-line ((t (:background "black" :foreground "#111")))) ; comment this, so that the fringe is not centered.
+ ; not sure why this works this way
 
  ;;; Search
  '(isearch ((t (:foreground "black" :background "red"))))
  '(isearch-lazy-highlight-face ((t (:foreground "red"))))
 
  ;; Parenthesis matching
- '(show-paren-match-face ((t (:foreground "black" :background "light gray"))))
- '(show-paren-mismatch-face ((t (:foreground "black" :background "red"))))
+ ;'(show-paren-match-face ((t (:foreground "black" :background "light gray"))))
+ ;'(show-paren-match ((t (:foreground "white" :bold t ))))
+ '(show-paren-match ((t (:foreground "black" :background "white"))))
+ ;'(show-paren-mismatch-face ((t (:foreground "black" :background "red"))))
+ '(show-paren-mismatch ((t (:foreground "black" :background "red"))))
 
  ;; Line highlighting
  '(highlight ((t (:background "#1f1f1f" :foreground nil))))
