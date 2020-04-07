@@ -33,8 +33,6 @@
   "A minimalistic and mostly monochromatic color scheme inspired
 by `color-theme-late-night' and the Less is More theme for vim.")
 
-(setq cursor-type '(hbar . 3)) ; setting the cursor's style.
-
 (custom-theme-set-faces
  'less
 
