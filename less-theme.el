@@ -33,6 +33,8 @@
   "A minimalistic and mostly monochromatic color scheme inspired
 by `color-theme-late-night' and the Less is More theme for vim.")
 
+(setq cursor-type '(hbar . 3)) ; setting the cursor's style.
+
 (custom-theme-set-faces
  'less
 
@@ -67,7 +69,7 @@ by `color-theme-late-night' and the Less is More theme for vim.")
 ; '(modeline ((t (:background "gray70" :foreground "gray70" :overline "white"))))
  '(mode-line-inactive ((t (:background "#000000" :foreground "#333" :underline "#222"))))
  '(region ((t (:background "light gray" :foreground "black"))))
- '(secondary-selection ((t (:background "Aquamarine" :foreground "SlateBlue"))))
+ '(secondary-selection ((t (:background "Aquamarine" :foreground "light cyan"))))
  '(tool-bar ((t (:background "#111" :foreground "#777"))))
  '(tooltip ((t (:background "#333" :foreground "#777"))))
  '(widget-button-face ((t (:bold t :foreground "#888"))))
@@ -82,7 +84,7 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  ;; Parenthesis matching
  ;'(show-paren-match-face ((t (:foreground "black" :background "light gray"))))
  ;'(show-paren-match ((t (:foreground "white" :bold t ))))
- '(show-paren-match ((t (:foreground "black" :background "white"))))
+ '(show-paren-match ((t (:foreground "white" :background "#1f1f1f" :weight bold))))
  ;'(show-paren-mismatch-face ((t (:foreground "black" :background "red"))))
  '(show-paren-mismatch ((t (:foreground "black" :background "red"))))
 
