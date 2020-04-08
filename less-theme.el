@@ -33,6 +33,8 @@
   "A minimalistic and mostly monochromatic color scheme inspired
 by `color-theme-late-night' and the Less is More theme for vim.")
 
+(set-default 'cursor-type '(hbar . 3))
+
 (custom-theme-set-faces
  'less
 
@@ -58,7 +60,7 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  '(font-lock-keyword-face ((t (:bold t :foreground "white"))))
  '(font-lock-warning-face ((t (:bold t :foreground "red"))))
 
- ;; Emacs Interface
+ ;;; Emacs Interface
  '(fringe ((t (:background "black" :foreground "#111")))) ; making it more suble
  '(header-line ((t (:background "#333" :foreground "#000"))))
  '(menu ((t (:background "#111" :foreground "#444"))))
@@ -79,26 +81,26 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  '(isearch ((t (:foreground "black" :background "red"))))
  '(isearch-lazy-highlight-face ((t (:foreground "red"))))
 
- ;; Parenthesis matching
+ ;;; Parenthesis matching
  ;'(show-paren-match-face ((t (:foreground "black" :background "light gray"))))
  ;'(show-paren-match ((t (:foreground "white" :bold t ))))
  '(show-paren-match ((t (:foreground "white" :background "#1f1f1f" :weight bold))))
  ;'(show-paren-mismatch-face ((t (:foreground "black" :background "red"))))
  '(show-paren-mismatch ((t (:foreground "black" :background "red"))))
 
- ;; Line highlighting
+ ;;; Line highlighting
  '(highlight ((t (:background "#1f1f1f" :foreground nil))))
  '(highlight-current-line-face ((t (:background "#1f1f1f" :foreground nil))))
  '(hl-line ((t (:background "#1f1f1f" :foreground nil))))
 
- ;; Buttons
+ ;;; Buttons
  '(button ((t (:bold t))))
  '(custom-button-face ((t (:bold t :foreground "#999"))))
 
- ;; Calendar
+ ;;; Calendar
  '(holiday-face ((t (:background "#000" :foreground "#777"))))
 
- ;; info, help and apropos faces
+ ;;; info, help and apropos faces
  '(info-header-node ((t (:foreground "#666"))))
  '(info-header-xref ((t (:foreground "#666"))))
  '(info-menu-5 ((t (:underline t))))
@@ -106,7 +108,7 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  '(info-node ((t (:bold t :foreground "#888"))))
  '(info-xref ((t (:bold t :foreground "#777"))))
 
- ;; gnus
+ ;;; gnus
  '(gnus-cite-attribution-face ((t (:foreground "#bbb"))))
  '(gnus-cite-face-1 ((t (:foreground "#aaa"))))
  '(gnus-cite-face-2 ((t (:foreground "#aaa"))))
@@ -178,7 +180,7 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  '(message-header-xheader-face ((t (:foreground "#666"))))
  '(message-separator-face ((t (:foreground "#999"))))
 
- ;; erc
+ ;;; erc
  '(erc-action-face ((t (nil))))
  '(erc-bold-face ((t (:bold t))))
  '(erc-current-nick-face ((t (:bold t))))
@@ -227,9 +229,26 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  '(bg:erc-color-face14 ((t (nil))))
  '(bg:erc-color-face15 ((t (nil))))
 
- ;; Treemacs
+ ;;; Treemacs
  '(treemacs-root-face ((t (:height 1.0 :underline t))))
 
+ ;;; Org
+ '(org-done ((t (:foreground "#333"))))
+ '(org-headline-done ((t (:foreground "#333"))))
+
+ ;;; ivy
+ '(ivy-current-match ((t (:background "#1f1f1f" :foreground nil))))
+
+ ;;; Swiper
+ '(swiper-line-face ((t (:background "#1f1f1f" :foreground nil))))
+ ;'(swiper-match-face-1
+ ;  swiper-match-face-2
+ ;                         swiper-match-face-3
+ ;                         swiper-match-face-4)
+
+
+
+ ;;; end of face definitions
  )
 
 (provide-theme 'less)
