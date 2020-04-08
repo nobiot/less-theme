@@ -45,7 +45,7 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  '(underline ((t (:bold t))))
  '(variable-pitch ((t (nil))))
  '(cursor ((t (:background "yellow"))))
- '(link ((t (:foreground "gray70" :underline t))))
+ '(link ((t (:foreground "white" :underline t))))
  '(font-lock-comment-face ((t (:bold t :foreground "dim gray"))))
  '(font-lock-comment-delimiter-face ((t (:bold t :foreground "dim gray"))))
  '(font-lock-function-name-face ((t (:foreground "gray90"))))
@@ -78,6 +78,14 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  '(widget-field-face ((t (:bold t :foreground "#999"))))
  ;'(vertical-line ((t (:background "black" :foreground "#111")))) ; comment this, so that the fringe is not centered.
  ; not sure why this works this way
+
+
+ ;;; Outline
+ '(outline-1 ((t (:foreground "white"))))
+ '(outline-2 ((t (:inherit outline-1))))
+ '(outline-3 ((t (:inherit outline-2))))
+ '(outline-4 ((t (:inherit outline-3))))
+ '(outline-5 ((t (:inherit outline-4))))
 
  ;;; Search
  '(isearch ((t (:foreground "black" :background "red"))))
@@ -237,10 +245,12 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  ;;; Org
  '(org-done ((t (:foreground "#333"))))
  '(org-headline-done ((t (:foreground "#333"))))
- '(org-drawer ((t (:foreground "#444"))))
- '(org-link ((t (:foreground "gray70" :underline t))))
+ '(org-drawer ((t (:foreground "#333"))))
+ '(org-link ((t (:foreground "white" :underline t))))
  '(org-date ((t (:foreground "gray70" :underline t))))
- '(org-special-keyword ((t (:foreground "#444" ))))
+ '(org-special-keyword ((t (:foreground "#333" ))))
+ '(org-meta-line ((t (:foreground "#333"))))
+ '(org-block ((t (:foreground "#333"))))
 
  ;;; ivy
  '(ivy-current-match ((t (:background "#1f1f1f" :foreground nil))))
