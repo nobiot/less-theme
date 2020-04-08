@@ -240,7 +240,7 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  '(org-drawer ((t (:foreground "#444"))))
  '(org-link ((t (:foreground "gray70" :underline t))))
  '(org-date ((t (:foreground "gray70" :underline t))))
- '(org-special-keyword ((t (:foreground "#666" :bold t ))))
+ '(org-special-keyword ((t (:foreground "#444" ))))
 
  ;;; ivy
  '(ivy-current-match ((t (:background "#1f1f1f" :foreground nil))))
