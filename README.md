@@ -15,4 +15,4 @@ Off)](https://www.robertmelton.com/posts/syntax-highlighting-off/) by Robert Mel
 
 ![Md-Roam (markdown adaptation of Org-Roam)](./images/READMEmd-roam.png)
 
-![Org Mode with Japanese, symbols, and emojis](.images/READMEorg.png)
+![Org Mode with Japanese, symbols, and emojis](./images/READMEorg.png)
