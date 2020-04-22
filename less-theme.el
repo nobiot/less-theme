@@ -39,43 +39,42 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  'less
 
  ;; Standard font lock faces
- '(default ((t (:background "#000000" :foreground "gray70"))))
+ '(default ((t (:background "#F9F9FA" :foreground "#111"))))
  '(bold ((t (:bold t))))
  '(italic ((t (:bold t))))
  '(underline ((t (:bold t))))
  '(variable-pitch ((t (:height 100))))
- '(cursor ((t (:background "yellow"))))
+ '(cursor ((t (:background "red"))))
  '(link ((t (:foreground "white" :underline t))))
  '(warning ((t (:foreground "orange"))))
- '(success ((t (:foreground "green"))))
- '(font-lock-comment-face ((t (:bold t :foreground "dim gray"))))
- '(font-lock-comment-delimiter-face ((t (:bold t :foreground "dim gray"))))
- '(font-lock-function-name-face ((t (:foreground "gray90"))))
- '(font-lock-variable-name-face ((t (:foreground "gray90"))))
- '(font-lock-constant-face ((t (:foreground "gray90"))))
- '(font-lock-doc-string-face ((t (:foreground "gray90"))))
- '(font-lock-doc-face ((t (:foreground "gray90"))))
- '(font-lock-preprocessor-face ((t (:foreground "gray90"))))
- '(font-lock-reference-face ((t (:foreground "gray90"))))
- '(font-lock-string-face ((t (:foreground "gray90"))))
- '(font-lock-type-face ((t (:bold t :foreground "white"))))
- '(font-lock-builtin-face ((t (:bold t :foreground "white"))))
- '(font-lock-keyword-face ((t (:bold t :foreground "white"))))
+ '(success ((t (:foreground "lime green"))))
+ '(font-lock-comment-face ((t (:bold t :foreground "#444"))))
+ '(font-lock-comment-delimiter-face ((t (:bold t :foreground "#444"))))
+ '(font-lock-function-name-face ((t (:foreground "#222"))))
+ '(font-lock-variable-name-face ((t (:foreground "#222"))))
+ '(font-lock-constant-face ((t (:foreground "#222"))))
+ '(font-lock-doc-string-face ((t (:foreground "#222"))))
+ '(font-lock-doc-face ((t (:foreground "#222"))))
+ '(font-lock-preprocessor-face ((t (:foreground "#222"))))
+ '(font-lock-reference-face ((t (:foreground "#222"))))
+ '(font-lock-string-face ((t (:foreground "#222"))))
+ '(font-lock-type-face ((t (:bold t :foreground "#000"))))
+ '(font-lock-builtin-face ((t (:bold t :foreground "#000"))))
+ '(font-lock-keyword-face ((t (:bold t :foreground "#000"))))
  '(font-lock-warning-face ((t (:bold t :foreground "red"))))
 
  ;;; Emacs Interface
- '(fringe ((t (:background "black" :foreground "#111")))) ; making it more suble
- '(header-line ((t (:background "#333" :foreground "#000"))))
- '(menu ((t (:background "#111" :foreground "#444"))))
- '(minibuffer-prompt ((t (:foreground "white"))))
- '(mode-line ((t (:background "black" :foreground "gray70" :underline nil :overline "white"))))
-; '(modeline ((t (:background "gray70" :foreground "gray70" :overline "white"))))
- '(mode-line-inactive ((t (:background "#000000" :foreground "#333" :underline "#222"))))
- '(doom-modeline-info ((t (:foreground "green"))))
+ '(fringe ((t (:background "F9F9FA" :foreground "#FFFFF9")))) ; making it more suble
+ '(header-line ((t (:background "#EEE" :foreground "#000"))))
+ '(menu ((t (:background "#EEE" :foreground "#222"))))
+ '(minibuffer-prompt ((t (:foreground "#000"))))
+ '(mode-line ((t (:background "F9F9FA" :foreground "gray70" :underline nil :overline "white"))))
+ '(mode-line-inactive ((t (:background "#F9F9FA" :foreground "#EEE" :underline "#EEE"))))
+ '(doom-modeline-info ((t (:foreground "lime green"))))
  '(region ((t (:background "light gray" :foreground "black"))))
- '(secondary-selection ((t (:background "Aquamarine" :foreground "light cyan"))))
- '(tool-bar ((t (:background "#111" :foreground "#777"))))
- '(tooltip ((t (:background "#333" :foreground "#777"))))
+ '(secondary-selection ((t (:background "#EFFFFF" :foreground "#EEE"))))
+ '(tool-bar ((t (:background "#F1F1F1" :foreground "#777"))))
+ '(tooltip ((t (:background "#F1F1F1" :foreground "#777"))))
  '(widget-button-face ((t (:bold t :foreground "#888"))))
  '(widget-field-face ((t (:bold t :foreground "#999"))))
  ;'(vertical-line ((t (:background "black" :foreground "#111")))) ; comment this, so that the fringe is not centered.
@@ -83,14 +82,14 @@ by `color-theme-late-night' and the Less is More theme for vim.")
 
 
  ;;; Outline
- '(outline-1 ((t (:foreground "white"))))
+ '(outline-1 ((t (:foreground "black"))))
  '(outline-2 ((t (:inherit outline-1))))
  '(outline-3 ((t (:inherit outline-2))))
  '(outline-4 ((t (:inherit outline-3))))
  '(outline-5 ((t (:inherit outline-4))))
 
  ;;; Search
- '(isearch ((t (:foreground "black" :background "red"))))
+ '(isearch ((t (:foreground "F9F9FA" :background "red"))))
  '(isearch-lazy-highlight-face ((t (:foreground "red"))))
 
  ;;; Parenthesis matching
@@ -101,9 +100,9 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  '(show-paren-mismatch ((t (:foreground "black" :background "red"))))
 
  ;;; Line highlighting
- '(highlight ((t (:background "#1f1f1f" :foreground nil))))
- '(highlight-current-line-face ((t (:background "#1f1f1f" :foreground nil))))
- '(hl-line ((t (:background "#1f1f1f" :foreground nil))))
+ '(highlight ((t (:background "#F0F0F0" :foreground nil))))
+ '(highlight-current-line-face ((t (:background "#F0F0F0" :foreground nil))))
+ '(hl-line ((t (:background "#F0F0F0" :foreground nil))))
 
  ;;; Buttons
  '(button ((t (:bold t))))
@@ -124,9 +123,9 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  '(pandoc-citation-key-face ((t (:inherit org-ref-cite-face :underline nil)))) ; by defaut, inherits font-lock-function-name-face
 
  ;;; Markdown & YAML Fontmatter
- '(markdown-markup-face ((t (:foreground "#333"))))
- '(markdown-metadata-key-face ((t (:foreground "#333"))))
- '(markdown-metadata-value-face ((t (:foreground "#333"))))
+ '(markdown-markup-face ((t (:foreground "#ccc"))))
+ '(markdown-metadata-key-face ((t (:foreground "#ccc"))))
+ '(markdown-metadata-value-face ((t (:foreground "#ccc"))))
 
  ;;; gnus
  '(gnus-cite-attribution-face ((t (:foreground "#bbb"))))
@@ -253,20 +252,20 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  '(treemacs-root-face ((t (:height 1.0 :underline t))))
 
  ;;; Org
- '(org-done ((t (:foreground "#333"))))
- '(org-headline-done ((t (:foreground "#333"))))
- '(org-drawer ((t (:foreground "#333"))))
- '(org-link ((t (:foreground "white" :underline t))))
- '(org-date ((t (:foreground "gray70" :underline t))))
- '(org-special-keyword ((t (:foreground "#333" ))))
- '(org-meta-line ((t (:foreground "#333"))))
- '(org-block ((t (:foreground "#333"))))
+ '(org-done ((t (:foreground "#F0F0F0"))))
+ '(org-headline-done ((t (:foreground "#F0F0F0)"))))
+ '(org-drawer ((t (:foreground "#F0F0F0"))))
+ '(org-link ((t (:foreground "black" :underline t))))
+ '(org-date ((t (:foreground "#EEE" :underline t))))
+ '(org-special-keyword ((t (:foreground "#111" ))))
+ '(org-meta-line ((t (:foreground "#EEE"))))
+ '(org-block ((t (:foreground "#EEE"))))
 
  ;;; ivy
  '(ivy-current-match ((t (:background "#1f1f1f" :foreground nil))))
 
  ;;; Swiper
- '(swiper-line-face ((t (:background "#1f1f1f" :foreground nil))))
+ '(swiper-line-face ((t (:background "#EEE" :foreground nil))))
  ;'(swiper-match-face-1
  ;  swiper-match-face-2
  ;                         swiper-match-face-3
