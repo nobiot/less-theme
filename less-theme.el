@@ -33,7 +33,8 @@
   "A minimalistic and mostly monochromatic color scheme inspired
 by `color-theme-late-night' and the Less is More theme for vim.")
 
-(set-default 'cursor-type '(hbar . 3))
+(set-default 'cursor-type '(bar . 5))
+
 
 (custom-theme-set-faces
  'less
@@ -78,13 +79,13 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  ; not sure why this works this way
 
  ;;; Modeline
- '(mode-line ((t (:background "F9F9FA" :foreground "gray70" :underline nil :overline "black" :bold nil))))
+ '(mode-line ((t (:background "F9F9FA" :foreground "#666" :underline nil :overline "black" :bold nil))))
  '(mode-line-inactive ((t (:background "#F9F9FA" :foreground "#EEE" :underline "#EEE"))))
  '(mode-line-emphasis ((t :bold nil)))
  '(doom-modeline-buffer-file ((t :bold nil :foreground "#444")))
  '(doom-modeline-buffer-path ((t :bold nil :foreground "#444")))
  '(doom-modeline-project-dir ((t :bold nil :foreground "#444")))
- '(doom-modeline-buffer-major-mode ((t :bold nil :foreground "#444")))
+ '(doom-modeline-buffer-major-mode ((t :bold nil :foreground "#888")))
  '(doom-modeline-buffer-modified ((t :bold nil :foreground "red")))
  '(doom-modeline-info ((t (:foreground "lime green"))))
 
@@ -276,7 +277,7 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  '(ivy-current-match ((t (:background "#F1F1F1" :foreground nil))))
 
  ;;; Swiper
- '(swiper-line-face ((t (:background "#F1F1F1" :foreground nil))))
+ '(swiper-line-face ((t (:background "#E8E8E8" :foreground nil))))
  ;'(swiper-match-face-1
  ;  swiper-match-face-2
  ;                         swiper-match-face-3
