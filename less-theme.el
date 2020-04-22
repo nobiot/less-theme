@@ -120,6 +120,14 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  '(info-node ((t (:bold t :foreground "#888"))))
  '(info-xref ((t (:bold t :foreground "#777"))))
 
+ ;;; Pandoc
+ '(pandoc-citation-key-face ((t (:inherit org-ref-cite-face :underline nil)))) ; by defaut, inherits font-lock-function-name-face
+
+ ;;; Markdown & YAML Fontmatter
+ '(markdown-markup-face ((t (:foreground "#333"))))
+ '(markdown-metadata-key-face ((t (:foreground "#333"))))
+ '(markdown-metadata-value-face ((t (:foreground "#333"))))
+
  ;;; gnus
  '(gnus-cite-attribution-face ((t (:foreground "#bbb"))))
  '(gnus-cite-face-1 ((t (:foreground "#aaa"))))
