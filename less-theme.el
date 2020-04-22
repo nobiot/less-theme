@@ -68,14 +68,6 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  '(header-line ((t (:background "#EEE" :foreground "#000"))))
  '(menu ((t (:background "#EEE" :foreground "#222"))))
  '(minibuffer-prompt ((t (:foreground "#000"))))
- '(mode-line ((t (:background "F9F9FA" :foreground "gray70" :underline nil :overline "black" :bold nil))))
- '(mode-line-inactive ((t (:background "#F9F9FA" :foreground "#EEE" :underline "#EEE"))))
- '(mode-line-emphasis ((t :bold nil)))
- '(doom-modeline-buffer-file ((t :bold nil :foreground "#EEE")))
- '(doom-modeline-buffer-path ((t :bold nil :foreground "#EEE")))
- '(doom-modeline-buffer-major-mode ((t :bold nil :foreground "#EEE")))
- '(doom-modeline-buffer-modified ((t :bold nil :foreground "red")))
- '(doom-modeline-info ((t (:foreground "lime green"))))
  '(region ((t (:background "light gray" :foreground "black"))))
  '(secondary-selection ((t (:background "#EFFFFF" :foreground "#EEE"))))
  '(tool-bar ((t (:background "#F1F1F1" :foreground "#777"))))
@@ -84,6 +76,17 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  '(widget-field-face ((t (:bold t :foreground "#999"))))
  ;'(vertical-line ((t (:background "black" :foreground "#111")))) ; comment this, so that the fringe is not centered.
  ; not sure why this works this way
+
+ ;;; Modeline
+ '(mode-line ((t (:background "F9F9FA" :foreground "gray70" :underline nil :overline "black" :bold nil))))
+ '(mode-line-inactive ((t (:background "#F9F9FA" :foreground "#EEE" :underline "#EEE"))))
+ '(mode-line-emphasis ((t :bold nil)))
+ '(doom-modeline-buffer-file ((t :bold nil :foreground "#444")))
+ '(doom-modeline-buffer-path ((t :bold nil :foreground "#444")))
+ '(doom-modeline-project-dir ((t :bold nil :foreground "#444")))
+ '(doom-modeline-buffer-major-mode ((t :bold nil :foreground "#444")))
+ '(doom-modeline-buffer-modified ((t :bold nil :foreground "red")))
+ '(doom-modeline-info ((t (:foreground "lime green"))))
 
 
  ;;; Outline
