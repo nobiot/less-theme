@@ -45,7 +45,7 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  '(underline ((t (:bold t))))
  '(variable-pitch ((t (:height 100))))
  '(cursor ((t (:background "red"))))
- '(link ((t (:foreground "white" :underline t))))
+ '(link ((t (:foreground "black" :underline t))))
  '(warning ((t (:foreground "orange"))))
  '(success ((t (:foreground "lime green"))))
  '(font-lock-comment-face ((t (:bold t :foreground "#444"))))
@@ -64,11 +64,11 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  '(font-lock-warning-face ((t (:bold t :foreground "red"))))
 
  ;;; Emacs Interface
- '(fringe ((t (:background "F9F9FA" :foreground "#FFFFF9")))) ; making it more suble
+ '(fringe ((t (:background "F9F9FA" :foreground "#F1F1F1")))) ; making it more suble
  '(header-line ((t (:background "#EEE" :foreground "#000"))))
  '(menu ((t (:background "#EEE" :foreground "#222"))))
  '(minibuffer-prompt ((t (:foreground "#000"))))
- '(mode-line ((t (:background "F9F9FA" :foreground "gray70" :underline nil :overline "white"))))
+ '(mode-line ((t (:background "F9F9FA" :foreground "gray70" :underline nil :overline "black"))))
  '(mode-line-inactive ((t (:background "#F9F9FA" :foreground "#EEE" :underline "#EEE"))))
  '(doom-modeline-info ((t (:foreground "lime green"))))
  '(region ((t (:background "light gray" :foreground "black"))))
@@ -253,7 +253,7 @@ by `color-theme-late-night' and the Less is More theme for vim.")
 
  ;;; Org
  '(org-done ((t (:foreground "#F0F0F0"))))
- '(org-headline-done ((t (:foreground "#F0F0F0)"))))
+ '(org-headline-done ((t (:foreground "#F0F0F0"))))
  '(org-drawer ((t (:foreground "#F0F0F0"))))
  '(org-link ((t (:foreground "black" :underline t))))
  '(org-date ((t (:foreground "#EEE" :underline t))))
@@ -262,10 +262,10 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  '(org-block ((t (:foreground "#EEE"))))
 
  ;;; ivy
- '(ivy-current-match ((t (:background "#1f1f1f" :foreground nil))))
+ '(ivy-current-match ((t (:background "#F1F1F1" :foreground nil))))
 
  ;;; Swiper
- '(swiper-line-face ((t (:background "#EEE" :foreground nil))))
+ '(swiper-line-face ((t (:background "#F1F1F1" :foreground nil))))
  ;'(swiper-match-face-1
  ;  swiper-match-face-2
  ;                         swiper-match-face-3
