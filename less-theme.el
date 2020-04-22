@@ -126,6 +126,8 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  '(markdown-markup-face ((t (:foreground "#ccc"))))
  '(markdown-metadata-key-face ((t (:foreground "#ccc"))))
  '(markdown-metadata-value-face ((t (:foreground "#ccc"))))
+ '(markdown-code-face ((t (:background "#F3F3F3"))))
+
 
  ;;; gnus
  '(gnus-cite-attribution-face ((t (:foreground "#bbb"))))
