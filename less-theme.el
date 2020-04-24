@@ -65,7 +65,7 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  '(font-lock-warning-face ((t (:bold t :foreground "red"))))
 
  ;;; Emacs Interface
- '(fringe ((t (:background "F9F9FA" :foreground "#F1F1F1")))) ; making it more suble
+ '(fringe ((t (:background "#F9F9FA" :foreground "#F1F1F1")))) ; making it more suble
  '(header-line ((t (:background "#EEE" :foreground "#000"))))
  '(menu ((t (:background "#EEE" :foreground "#222"))))
  '(minibuffer-prompt ((t (:foreground "#000"))))
@@ -79,7 +79,7 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  ; not sure why this works this way
 
  ;;; Modeline
- '(mode-line ((t (:background "F9F9FA" :foreground "#666" :underline nil :overline "black" :bold nil))))
+ '(mode-line ((t (:background "#F9F9FA" :foreground "#666" :underline nil :overline "black" :bold nil))))
  '(mode-line-inactive ((t (:background "#F9F9FA" :foreground "#EEE" :underline "#EEE"))))
  '(mode-line-emphasis ((t :bold nil)))
  '(doom-modeline-buffer-file ((t :bold nil :foreground "#444")))
@@ -98,7 +98,7 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  '(outline-5 ((t (:inherit outline-4))))
 
  ;;; Search
- '(isearch ((t (:foreground "F9F9FA" :background "red"))))
+ '(isearch ((t (:foreground "#F9F9FA" :background "red"))))
  '(isearch-lazy-highlight-face ((t (:foreground "red"))))
 
  ;;; Parenthesis matching
@@ -271,7 +271,10 @@ by `color-theme-late-night' and the Less is More theme for vim.")
  '(org-date ((t (:foreground "#BBB" :underline t))))
  '(org-special-keyword ((t (:foreground "#EEE" ))))
  '(org-meta-line ((t (:foreground "#EEE"))))
- '(org-block ((t (:foreground "#EEE"))))
+ '(org-block ((t (:foreground "#222" :background "#F0F0F0"))))
+ '(org-block-begin-line ((t (:foreground "#CCC" :background "#E9E9E9"))))
+ '(org-block-end-line ((t (:foreground "#CCC" :background "#E9E9E9"))))
+ 
 
  ;;; ivy
  '(ivy-current-match ((t (:background "#F1F1F1" :foreground nil))))
