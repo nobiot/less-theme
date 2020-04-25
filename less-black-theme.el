@@ -1,4 +1,4 @@
-;;; less-theme.el --- minimalistic theme ---  -*- lexical-binding: t; -*-
+;;; less-black-theme.el --- minimalistic theme ---  -*- lexical-binding: t; -*-
 ;; 
 ;; adapted
 ;; <https://jblevins.org/projects/emacs-color-themes/>
@@ -27,27 +27,27 @@
 ;;; Commentary:
 ;;; 
 ;;; Code:
-(deftheme less
+(deftheme less-black
   "A minimalistic and mostly monochromatic color scheme inspired
 by `color-theme-late-night' and the Less is More theme for vim.")
 
-(let ((fg+1 "#000")
-      (fg   "#222")
-      (fg-1 "#444")
-      (fg-2 "#666")
+(let ((fg+1 "#FFF")
+      (fg   "#F8F8F8")
+      (fg-1 "#CCC")
+      (fg-2 "#AAA")
       (fg-3 "#888")
-      (fg-4 "#AAA")
-      (fg-5 "#CCC")
-      (bg-highlight+1 "#E9E9E9")
-      (bg-highlight   "#F0F0F0")
-      (bg "#F9F9FA")
+      (fg-4 "#666")
+      (fg-5 "#444")
+      (bg-highlight+1 "#0C0C0C")
+      (bg-highlight   "#090909")
+      (bg "#000")
       (cursor "red")
-      (S "lime green")
+      (S "green")
       (W "orange")
       (E "red"))
 
   (custom-theme-set-faces
-   'less
+   'less-black
    ;; Standard font lock faces
    `(default ((t (:background ,bg :foreground ,fg))))
    `(bold ((t (:bold t))))
@@ -163,4 +163,4 @@ by `color-theme-late-night' and the Less is More theme for vim.")
 
 (provide-theme 'less)
 
-;;; less-theme.el ends here
+;;; less-black-theme.el ends here
