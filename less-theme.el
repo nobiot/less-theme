@@ -83,6 +83,7 @@ by `color-theme-late-night' and the Less is More theme for vim.")
    `(tooltip ((t (:background ,bg-highlight+1 :foreground ,fg-3))))
    `(widget-button-face ((t (:bold t :foreground ,fg-1))))
    `(widget-field-face ((t (:bold t :foreground ,fg-3))))
+   `(match ((t (:background ,fg-5))))
 
 ;;; Buttons
    `(button ((t (:bold t))))
@@ -144,14 +145,17 @@ by `color-theme-late-night' and the Less is More theme for vim.")
    `(org-link ((t (:inherit link))))
    `(org-date ((t (:foreground ,fg-4 :underline nil))))
    `(org-special-keyword ((t (:foreground ,bg-highlight+1 ))))
-   `(org-meta-line ((t (:foreground ,bg-highlight+1))))
-   `(org-block ((t (:foreground ,bg-highlight+1))))
+   `(org-meta-line ((t (:foreground ,fg-5))))
+   `(org-block ((t (:foreground ,fg-5))))
 
  ;;; ivy
    `(ivy-current-match ((t (:background ,bg-highlight+1 :foreground nil))))
 
  ;;; Swiper
    `(swiper-line-face ((t (:background ,bg-highlight+1 :foreground nil))))
+
+;;; Ripgrep
+   `(ripgrep-hit-face ((t (:foreground ,fg :background ,bg-highlight ))))
 
  ;;; end of face definitions
    ))
