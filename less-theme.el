@@ -116,6 +116,8 @@ by `color-theme-late-night' and the Less is More theme for vim.")
    `(highlight-current-line-face ((t (:background ,bg-highlight :foreground nil))))
    `(hl-line ((t (:background ,bg-highlight :foreground nil))))
 
+ ;;; Dired
+   `(dired-directory ((t (:bold t))))
 
  ;;; Calendar
    `(holiday-face ((t (:background ,bg-highlight :foreground ,fg))))
