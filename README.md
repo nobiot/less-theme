@@ -13,8 +13,7 @@ Off)](https://www.robertmelton.com/posts/syntax-highlighting-off/) by Robert Mel
 
 - I got to know Melton's post via Gergely Nagy, [Emacs `brutalist-theme` author](https://asylum.madhouse-project.org/blog/2018/09/06/the-brutalist-path/).
 
-![Elisp Major Mode and Treemacs showing the project directory](./images/READMEelisp+treemacs.png)
 
-![Md-Roam (markdown adaptation of Org-Roam)](./images/READMEmd-roam.png)
+![less](./images/README20200503hero.png)
+![less-black](./images/README20200503hero-black.png)
 
-![Org Mode with Japanese, symbols, and emojis](./images/READMEorg.png)
